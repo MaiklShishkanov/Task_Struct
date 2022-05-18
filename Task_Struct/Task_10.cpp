@@ -1,23 +1,22 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 #include <vector>
-using namespace std;
 
 struct Student {
-	string name;
-	string surname;
-	string university;
-	string faculty;
+	std::string name;
+	std::string surname;
+	std::string university;
+	std::string faculty;
 	int course;
 };
 
 int main() {
-	vector<Student> student_1 = { {"Maksim","Chupa","MGU","Physics", 3},
+	std::vector<Student> student_1 = { {"Maksim","Chupa","MGU","Physics", 3},
 	{"Denis","Semenov","MGU","Physics", 2},
 	{"Yriy","Dubov","MGU","Physics", 1} };
-	vector<Student> new_stu(student_1.begin(), student_1.end());
+	std::vector<Student> new_stu(student_1.begin(), student_1.end());
 
-	for (const auto& arr : new_stu) 
+	for (const auto& arr : new_stu)
 	{
 		std::cout << "Students : " << std::endl;
 		std::cout << "Name: " << arr.name << std::endl;
