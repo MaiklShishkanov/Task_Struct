@@ -1,9 +1,8 @@
 #include <iostream>
 
-int arr_13()
+int main(int a, int b)
 {
-	int a = 100;
-	int b = 500;
+	a = 100;
+	b = 500;
 	int x[2] = { a, b };
-	return 0;
 }
