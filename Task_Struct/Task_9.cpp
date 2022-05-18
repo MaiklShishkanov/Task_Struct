@@ -1,14 +1,14 @@
 #include <iostream>
-using namespace std;
+#include <string.h>
 
 struct Student {
-    string name;
-    string surname;
-    string university;
-    string faculty;
+    std::string name;
+    std::string surname;
+    std::string university;
+    std::string faculty;
     int course;
 
-    Student(string name, string surname, string university, string faculty, int course) : name(name), surname(surname), university(university), faculty(faculty), course(course) {}
+    Student(std::string name, std::string surname, std::string university, std::string faculty, int course) : name(name), surname(surname), university(university), faculty(faculty), course(course) {}
 
     void print()
     {
