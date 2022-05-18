@@ -1,7 +1,7 @@
 #include <iostream>
 struct People {
-	char name;
-	char surname;
+	string name;
+	string surname;
 	int age;
 	double weight;
 	double height;
