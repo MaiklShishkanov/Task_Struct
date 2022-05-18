@@ -1,10 +1,9 @@
 #include <iostream>
 
-int sum()
+int main(double a, double b)
 {
-	double a = 0.0132;
-	double b = 0.9581;
-	double sum = a + b;
-	std::cout << sum << std::endl;
-	return sum;
+	a = 0.0132;
+	b = 0.9581;
+	std::cout << a + b << std::endl;
+	return a + b;
 }
