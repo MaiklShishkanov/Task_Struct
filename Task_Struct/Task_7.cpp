@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string.h>
+
 struct Ill {
-	char name;
-	char surname;
+	string name;
+	string surname;
 	int age;
 	double weight;
 	double height;
-	char disease;
+	string disease;
 };
