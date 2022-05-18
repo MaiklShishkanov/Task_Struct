@@ -1,32 +1,32 @@
 #include <iostream>
-using namespace std;
+#include <string.h>
 
-struct Ill {
-    string name;
-    string surname;
+struct Patient {
+    std::string name;
+    std::string surname;
     int age;
     double weight;
     double height;
-    string disease;
+    std::string disease;
 };
 
 int ewe()
 {
-    Ill ill;
-    ill.name = "Roman";
-    ill.surname = "Trentov";
-    ill.age = 25;
-    ill.weight = 1.70;
-    ill.height = 80.5;
-    ill.disease = "Grip";
+    Patient patient;
+    patient.name = "Roman";
+    patient.surname = "Trentov";
+    patient.age = 25;
+    patient.weight = 80.5;
+    patient.height = 1.70;
+    patient.disease = "Grip";
 
 
-    std::cout << "Name: " << ill.name << std::endl;
-    std::cout << "Surname: " << ill.surname << std::endl;
-    std::cout << "Age: " << ill.age << std::endl;
-    std::cout << "Weight: " << ill.weight << std::endl;
-    std::cout << "Height: " << ill.height << std::endl;
-    std::cout << "Disease: " << ill.disease << std::endl;
+    std::cout << "Name: " << patient.name << std::endl;
+    std::cout << "Surname: " << patient.surname << std::endl;
+    std::cout << "Age: " << patient.age << std::endl;
+    std::cout << "Weight: " << patient.weight << std::endl;
+    std::cout << "Height: " << patient.height << std::endl;
+    std::cout << "Disease: " << patient.disease << std::endl;
 
     return 0;
 }
