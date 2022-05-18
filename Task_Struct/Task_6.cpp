@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string.h>
+
 struct Student {
 	string name;
 	string surname;
