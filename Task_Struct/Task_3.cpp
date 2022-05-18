@@ -7,5 +7,5 @@ struct Point {
 
 struct Circle {
 	Point a;
-	int R;
+	float R;
 };
